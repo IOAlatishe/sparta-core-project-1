@@ -5,7 +5,10 @@ First project
 
 Project Brief
 The objective of this project was to create an interactive browser based game which incorporates the use of HTML, CSS and Javasctipt.
-the
+
+
+HERE IS THE CODE FOR THE STARTING POSITION OF THE BALL
+
 ```javascript
 function startBall() {
 	topPositionOfBall = 510;
