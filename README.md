@@ -7,9 +7,20 @@ Project Brief
 The objective of this project was to create an interactive browser based game which incorporates the use of HTML, CSS and Javasctipt.
 the
 ```javascript
-if (isAwesome){
-  return true
-}
+function startBall() {
+	topPositionOfBall = 510;
+	leftPositionOfBall = 820;
+
+
+	if (Math.random() < 0.5) {
+		var side = 1
+	} else {
+		var side = -1
+	}
+	topSpeedOfBall = Math.random() * 4 + 3;
+	leftSpeedOfBall = side * (Math.random() * 4 + 3);
+};
+
 ```
 
 
