@@ -1,3 +1,4 @@
+
 //the variables that will be called upon in this js file/
 var paddleHeight = 150;
 var paddleWidth = 10;
@@ -18,10 +19,6 @@ var score2 = 0;
 //Once the html is opened the game begins to run.
 //the position of the ball is placed in the middle of the screen
 //the 'Math.random' gives a left and top speed of the ball
-
-
-
-
 
 function startBall() {
 	topPositionOfBall = 510;
@@ -102,6 +99,10 @@ window.setInterval(function show() {
 			score2++;
 			startBall();
 		}
+		if (score2 >= 5) {
+			alert("Player 2 has won ")
+			(score2 = 0)
+		}
 	}
   //Same again here but applies to player 1 scoreing a point
 	if (leftPositionOfBall >= window.innerWidth - ballRadius - paddleWidth) {
@@ -110,8 +111,8 @@ window.setInterval(function show() {
 		} else {
 			score1++;
 			startBall();
-
 		}
+
 	}
 	document.getElementById("paddle1").style.top = (positionOfPaddle1) + "px";
 	document.getElementById("paddle2").style.top = (positionOfPaddle2) + "px";
