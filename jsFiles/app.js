@@ -14,9 +14,15 @@ var leftSpeedOfBall = 0;
 var score1 = 0;
 var score2 = 0;
 
+
 //Once the html is opened the game begins to run.
 //the position of the ball is placed in the middle of the screen
 //the 'Math.random' gives a left and top speed of the ball
+
+
+
+
+
 function startBall() {
 	topPositionOfBall = 510;
 	leftPositionOfBall = 820;
@@ -84,7 +90,7 @@ window.setInterval(function show() {
 	if (positionOfPaddle2 > window.innerHeight - paddleHeight) {
 		positionOfPaddle2 = window.innerHeight - paddleHeight;
 	}//Bottom half of the screen
-	if (topPositionOfBall <= 150 || topPositionOfBall >= window.innerHeight - ballRadius) {
+	if (topPositionOfBall <= 300 || topPositionOfBall >= window.innerHeight - ballRadius) {
 		topSpeedOfBall = -topSpeedOfBall
 	}
 
@@ -104,6 +110,7 @@ window.setInterval(function show() {
 		} else {
 			score1++;
 			startBall();
+
 		}
 	}
 	document.getElementById("paddle1").style.top = (positionOfPaddle1) + "px";
@@ -113,3 +120,17 @@ window.setInterval(function show() {
 	document.getElementById('score1').innerHTML = score1.toString();
 	document.getElementById('score2').innerHTML = score2.toString();
 }, 1000/60);
+
+startBall();
+
+
+
+
+
+// Priorities for Friday
+// Win Conditions (ie. best out of 5)
+// Scoreboard
+// timer?
+// Styled to perfection
+// Start/Stop Button
+// Instructions (as a modal)

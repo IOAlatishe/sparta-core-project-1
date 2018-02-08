@@ -1,8 +1,7 @@
-/*Sprint2 change the ball to sparta logo*/
 #ball {
   position:absolute;
-  left:820px;
-  top:510px;
+  /* left:10%;
+  top:10%; */
   width:25px;
   height:25px;
   background-color:blue;
