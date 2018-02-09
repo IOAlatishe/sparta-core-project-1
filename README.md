@@ -25,7 +25,7 @@ Additionally i had planned to use sounds for each user scoring a point and for t
 
 
 
-# STAGES 
+# Stages 
 - SPRINT 1
 
 To create the game the task was splint into two sprints to make it more manageable. 
