@@ -1,5 +1,4 @@
-
-//the variables that will be called upon in this js file/
+//the variables used in this js file
 var paddleHeight = 150;
 var paddleWidth = 10;
 var ballRadius = 25;
@@ -14,15 +13,16 @@ var topSpeedOfBall = 0;
 var leftSpeedOfBall = 0;
 var score1 = 0;
 var score2 = 0;
+var mySound;
 
 
-//Once the html is opened the game begins to run.
-//the position of the ball is placed in the middle of the screen
-//the 'Math.random' gives a left and top speed of the ball
 
+//Begins the game once the browser has loaded.
 function startBall() {
+
 	topPositionOfBall = 510;
 	leftPositionOfBall = 820;
+
 
 	if (Math.random() < 0.5) {
 		var side = 1
@@ -33,9 +33,7 @@ function startBall() {
 	leftSpeedOfBall = side * (Math.random() * 4 + 3);
 };
 
-//the keydown option allows paddle1 to be moved up and down.
-//This was done with an if statement and reduces the height by -10 or increases it by 10
-//
+//Paddle movements using the relevant keys
 document.addEventListener('keydown', function (event) {
      if (event.keyCode == 87 || event.which == 87) { // W key
       speedOfPaddle1 = -10;
@@ -73,13 +71,14 @@ window.setInterval(function show() {
 	positionOfPaddle2 += speedOfPaddle2;
 	topPositionOfBall += topSpeedOfBall;
 	leftPositionOfBall += leftSpeedOfBall;
-//keeps the paddle on the top half screen??????
+
+//Keeps the paddles and ball within a certain area of the screen
 	if (positionOfPaddle1 <= 150) {
 		positionOfPaddle1 = 150;
 	}
 	if (positionOfPaddle2 <= 150) {
 		positionOfPaddle2 = 150;
-	}//stops paddles from going out of the display
+	}
 	if (positionOfPaddle1 >= window.innerHeight - paddleHeight) {
 		positionOfPaddle1 = window.innerHeight - paddleHeight;
 	}
@@ -87,7 +86,7 @@ window.setInterval(function show() {
 	if (positionOfPaddle2 > window.innerHeight - paddleHeight) {
 		positionOfPaddle2 = window.innerHeight - paddleHeight;
 	}//Bottom half of the screen
-	if (topPositionOfBall <= 300 || topPositionOfBall >= window.innerHeight - ballRadius) {
+	if (topPositionOfBall <= 150 || topPositionOfBall >= window.innerHeight - ballRadius) {
 		topSpeedOfBall = -topSpeedOfBall
 	}
 
@@ -98,10 +97,11 @@ window.setInterval(function show() {
 		} else {
 			score2++;
 			startBall();
-		}
-		if (score2 >= 5) {
-			alert("Player 2 has won ")
-			(score2 = 0)
+
+			if (score2 == 10) {
+				alert("Player 2 has won")
+				score2 = 0;
+			}
 		}
 	}
   //Same again here but applies to player 1 scoreing a point
@@ -111,6 +111,10 @@ window.setInterval(function show() {
 		} else {
 			score1++;
 			startBall();
+			if (score1 == 10) {
+				alert("You have won the game Player 1")
+				score1 = 0;
+			}
 		}
 
 	}
@@ -120,18 +124,8 @@ window.setInterval(function show() {
 	document.getElementById("ball").style.left = (leftPositionOfBall) + "px";
 	document.getElementById('score1').innerHTML = score1.toString();
 	document.getElementById('score2').innerHTML = score2.toString();
-}, 1000/60);
+}, 3000/60);
 
 startBall();
 
-
-
-
-
-// Priorities for Friday
-// Win Conditions (ie. best out of 5)
-// Scoreboard
-// timer?
-// Styled to perfection
-// Start/Stop Button
-// Instructions (as a modal)
+new Audio ('./sound/ToTheMax.mp3').play();

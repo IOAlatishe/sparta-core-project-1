@@ -1,28 +1,26 @@
-/* #container {
 
-   border: 10px solid red;
-   overflow: hidden;
-} */
 
 body {
 
   background: url("../images/backgroud.png");
   background-size: cover;
-
+  font-family: 'Audiowide', cursive !important;
 }
+
 h1 {
   position:
   absolute;
-  left:45%;
+  left:40%;
   top:10px;
-  font-size:70px;
-  color: purple;
+  font-size:70px !important;
+  color: purple !important;
+
 
 }
 
 h2,h3 {
   position:relative;
-  color: white;
+  color: white !important;
 }
 
 h3 {
