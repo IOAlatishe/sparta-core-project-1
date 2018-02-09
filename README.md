@@ -1,4 +1,4 @@
-# sparta-core-project-1
+# Sparta-core-project-1
 First project
 
 
