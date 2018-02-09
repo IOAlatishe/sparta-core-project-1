@@ -7,31 +7,19 @@ First project
 The objective of this project was to create an interactive browser based game which incorporates the use of HTML, CSS and Javasctipt.These are the tools learnt over the last couple weeks in preperation for this project. 
 
 
-HERE IS THE CODE FOR THE STARTING POSITION OF THE BALL
-
-```javascript
-function startBall() {
-	topPositionOfBall = 510;
-	leftPositionOfBall = 820;
-
-
-	if (Math.random() < 0.5) {
-		var side = 1
-	} else {
-		var side = -1
-	}
-	topSpeedOfBall = Math.random() * 4 + 3;
-	leftSpeedOfBall = side * (Math.random() * 4 + 3);
-};
-
-```
-
-
-
 # How to download and run the game
 First you must download the file
 Unzip the file 
 In order to run the game you must first 
+
+
+
+  # - PLANNING & WIREFRAME
+  
+The initial plannning was to create a smaller game board for the paddle and the ball. The remaing space within the browser was intended for animation and other features. However technical difficulties occured and rendered the use of a container unsuccesful and difficult. This was overcome by using the full width of the browser. In doing so ..... 
+
+
+
 
 # STAGES 
 - SPRINT 1
@@ -44,21 +32,21 @@ The intital first sprint included tasks such as :
         - Once the ball has passed through the left or right side of the board the opposing user will gain a point
         - Provide a minimal viable product (MVP)
 
-  # - PLANNING & WIREFRAME
-  
-The initial plannning was to create a smaller game board for the paddle and the ball. The remaing space within the browser was intended for animation and other features. However technical difficulties occured and rendered the use of a container unsuccesful and difficult. This was overcome by using the full width of the browser. In doing so ..... 
 
-(INCLUDE PICTURE)
-  - ISSUES
- 
-  
 - SPRINT 2
   
 For the second sprint i was tasked with : 
- - Displaying the score of both users
+ - Displaying the score of both users.
+ - Display the instructions of the game on the screen
  - Overall providing a more aesthetically pleasing product.
  - Features like using a modal were implemented 
-All of the above tasks were successfully completed 
+ 
+ 
+ 
+ e.g. I used a modal from bootstrap to display the game instructions using the following code.
+ 
+Screen Shot 2018-02-08 at 22.46.07
+All of the above tasks were successfully completed.
 
 #  - CHALLENGES 
   
