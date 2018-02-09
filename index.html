@@ -1,16 +1,64 @@
 <!doctype html>
 <html>
   <head>
-      <script src = "app.js"></script>
-      <link rel = "stylesheet" href = "index.css">
-      <link rel = "stylesheet" href = "paddles.css">
-      <link rel = "stylesheet" href = "ball.css">
+      <!-- <script src = "./jsFiles/jquery-3.3.1.slim.js"></script> -->
+      <script src = "./jsFiles/app.js"></script>
+      <link rel = "stylesheet" href = "./cssFiles/index.css">
+      <link rel = "stylesheet" href = "./cssFiles/paddles.css">
+      <link rel = "stylesheet" href = "./cssFiles/ball.css">
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+      <!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <!-- //tab name is Pong -->
+
+
+
+            <!-- <div class="container"> -->
+
+              <!-- Trigger the modal with a button -->
+              <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Instructions</button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">How To Play !</h4>
+                    </div>
+
+                      <div class="modal-body">
+                        <p>In this game there is one ball and two paddles at two ends. Both are user-controlled. Both users have to move the paddle in order not to let the ball pass through, if the ball passes through the left or right side then a point is awarded to the opposing side.
+
+                        <p>Whichever user is able to obtain the maximum available points of 10 then they will be declared the winner</p>
+
+                        <p>Player 1 may use the following keys to move: w = up, s = down</p>
+                        <p>Player 2 may use the following keys to move: up, down</p>
+                            <p>Good Luck</p>
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            
+
       <title>Pong</title>
   </head>
 
 
-    <body onload="startBall()">
+    <body>
 
           <h1>Pong</h1>
           <h2>Score 1: <span id="score1">0</span></h2>
@@ -18,8 +66,9 @@
           <hr>
 
 
-        <div class = "container">
-          <img src="SpartaLogo.ppg" class="rounded" alt="spartalogo">
+
+        <div id="container">
+          <!-- <img src="./images/SpartaLogo.png" class="rounded" alt="spartalogo"> -->
           <!-- //paddle1 Id -->
           <div id= "paddle1"></div>
           <!-- //ball Id -->
@@ -27,6 +76,10 @@
           <!-- //paddle2 Id -->
           <div id="paddle2"></div>
         </div>
+
+
+
     </body>
+
 
 </html>

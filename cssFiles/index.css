@@ -1,0 +1,38 @@
+
+
+body {
+
+  background: url("../images/backgroud.png");
+  background-size: cover;
+  font-family: 'Audiowide', cursive !important;
+}
+
+h1 {
+  position:
+  absolute;
+  left:40%;
+  top:10px;
+  font-size:70px !important;
+  color: purple !important;
+
+
+}
+
+h2,h3 {
+  position:relative;
+  color: white !important;
+}
+
+h3 {
+  margin-bottom:150px;
+}
+
+#score1, #score2 {
+  color:white;
+}
+
+button {
+  position:absolute;
+  right:80px;
+  top:20px;
+}
