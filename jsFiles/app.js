@@ -124,7 +124,7 @@ window.setInterval(function show() {
 	document.getElementById("ball").style.left = (leftPositionOfBall) + "px";
 	document.getElementById('score1').innerHTML = score1.toString();
 	document.getElementById('score2').innerHTML = score2.toString();
-}, 3000/60);
+}, 1000/60);
 
 startBall();
 
