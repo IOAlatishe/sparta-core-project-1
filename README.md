@@ -14,7 +14,7 @@ Then open index.html
 
 
 
-  # - PLANNING & WIREFRAME
+  # Planning 
   
 The initial plannning was to create a smaller game board for the paddle and the ball. The remaing space within the browser was intended for animation and other features. However technical difficulties occured and rendered the use of a container unsuccesful and difficult. This was overcome by using the full width of the browser. In doing so ..... 
 
@@ -26,15 +26,15 @@ The initial plannning was to create a smaller game board for the paddle and the 
 
 To create the game the task was splint into two sprints to make it more manageable. 
 The intital first sprint included tasks such as :
-        - Create a ball and two indidual paddles for either users
+       - Create a ball and two indidual paddles for either users
         
-        - Allow the users to move up and down
+       - Allow the users to move up and down
         
-        - Allow the ball to move across the board
+       - Allow the ball to move across the board
         
-        - Once the ball has passed through the left or right side of the board the opposing user will gain a point
+       - Once the ball has passed through the left or right side of the board the opposing user will gain a point
         
-        - Provide a minimal viable product (MVP)
+       - Provide a minimal viable product (MVP)
 
 
 - SPRINT 2
@@ -55,7 +55,7 @@ All of the above tasks were successfully completed.
  
 
 
-#  - CHALLENGES 
+#  Challenges 
   
 One of the challenges that occurered as mentioned previously was being unable to create a sufficient container for the ball and paddles. Though i overcame this obstable it did restrict the space available to me hence i had to change the design. 
 
