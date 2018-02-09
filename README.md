@@ -41,6 +41,7 @@ The intital first sprint included tasks such as :
 - SPRINT 2
   
 For the second sprint i was tasked with : 
+       
        - Displaying the score of both users.
 
        - Display the instructions of the game on the screen
