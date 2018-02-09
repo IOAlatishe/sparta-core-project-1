@@ -18,7 +18,9 @@ Then open index.html
 
   # Planning 
   
-The initial plannning was to create a smaller game board for the paddle and the ball. The remaing space within the browser was intended for animation and other features. However technical difficulties occured and rendered the use of a container unsuccesful and difficult. This was overcome by using the full width of the browser. In doing so ..... 
+The initial plannning was to create a smaller game board for the paddle and the ball. The remaing space within the browser was intended for animation and other features. However technical difficulties occured and rendered the use of a container unsuccesful and difficult. This was overcome by using the full width of the browser. 
+
+Additionally i had planned to use sounds for each user scoring a point and for the eventual winner but due to time constraints i pursued other easier features to do. 
 
 
 
