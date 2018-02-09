@@ -29,7 +29,8 @@ function startBall() {
 
 
 How to download and run the game
-dfdfjdfjn
+First you must download the file
+Unzip the file 
 In order to run the game you must first 
 
 STAGES 
@@ -63,4 +64,4 @@ All of the above tasks were successfully completed
   
 One of the challenges that occurered as mentioned previously was being unable to create a sufficient container for the ball and paddles. Though i overcame this obstable it did restrict the space available to me hence i had to change the design. 
 
-Another challenge that was encountered was including the score of the users , displaying it and using a winning condition to end the game. This took longer than expected but yhhhhhhhhh
+Another challenge that was encountered was including the score of the users , displaying it and using a winning condition to end the game. This took longer than expected because i had diffulty in creating the correct function etc.
