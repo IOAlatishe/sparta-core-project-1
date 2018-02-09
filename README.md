@@ -57,8 +57,7 @@ For the second sprint i was tasked with :
  
 All of the above tasks were successfully completed.
  
- e.g. I used a modal from bootstrap to display the game instructions using the following code.
- 
+
 
 
 #  Challenges 
