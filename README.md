@@ -9,7 +9,9 @@ The objective of this project was to create an interactive browser based game wh
 
 # How to download and run the game
 First you must download the file from https://github.com/IOAlatishe/sparta-core-project-1/tree/master
+
 Unzip the file or clone the repository using 'git clone git@github.com:IOAlatishe/sparta-core-project-1.git' 
+
 Then open index.html 
 
 
