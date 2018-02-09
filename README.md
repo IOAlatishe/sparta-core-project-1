@@ -26,6 +26,7 @@ The initial plannning was to create a smaller game board for the paddle and the 
 
 To create the game the task was splint into two sprints to make it more manageable. 
 The intital first sprint included tasks such as :
+
        - Create a ball and two indidual paddles for either users
         
        - Allow the users to move up and down
@@ -40,14 +41,14 @@ The intital first sprint included tasks such as :
 - SPRINT 2
   
 For the second sprint i was tasked with : 
- - Displaying the score of both users.
- 
- - Display the instructions of the game on the screen
- 
- - Overall providing a more aesthetically pleasing product.
- 
- - Features like using a modal were implemented 
- 
+       - Displaying the score of both users.
+
+       - Display the instructions of the game on the screen
+
+       - Overall providing a more aesthetically pleasing product.
+
+       - Features like using a modal were implemented 
+
  
 All of the above tasks were successfully completed.
  
