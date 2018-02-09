@@ -45,7 +45,7 @@ For the second sprint i was tasked with :
  
  e.g. I used a modal from bootstrap to display the game instructions using the following code.
  
-Screen Shot 2018-02-08 at 22.46.07
+
 All of the above tasks were successfully completed.
 
 #  - CHALLENGES 
