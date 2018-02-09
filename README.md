@@ -3,7 +3,7 @@ First project
 
 
 
-#Project Brief
+# Project Brief
 The objective of this project was to create an interactive browser based game which incorporates the use of HTML, CSS and Javasctipt.These are the tools learnt over the last couple weeks in preperation for this project. 
 
 
@@ -28,12 +28,12 @@ function startBall() {
 
 
 
-#How to download and run the game
+# How to download and run the game
 First you must download the file
 Unzip the file 
 In order to run the game you must first 
 
-#STAGES 
+# STAGES 
 - SPRINT 1
 
 To create the game the task was splint into two sprints to make it more manageable. 
@@ -44,7 +44,7 @@ The intital first sprint included tasks such as :
         - Once the ball has passed through the left or right side of the board the opposing user will gain a point
         - Provide a minimal viable product (MVP)
 
-  #- PLANNING & WIREFRAME
+  # - PLANNING & WIREFRAME
   
 The initial plannning was to create a smaller game board for the paddle and the ball. The remaing space within the browser was intended for animation and other features. However technical difficulties occured and rendered the use of a container unsuccesful and difficult. This was overcome by using the full width of the browser. In doing so ..... 
 
