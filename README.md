@@ -27,9 +27,13 @@ The initial plannning was to create a smaller game board for the paddle and the 
 To create the game the task was splint into two sprints to make it more manageable. 
 The intital first sprint included tasks such as :
         - Create a ball and two indidual paddles for either users
+        
         - Allow the users to move up and down
+        
         - Allow the ball to move across the board
+        
         - Once the ball has passed through the left or right side of the board the opposing user will gain a point
+        
         - Provide a minimal viable product (MVP)
 
 
@@ -37,16 +41,19 @@ The intital first sprint included tasks such as :
   
 For the second sprint i was tasked with : 
  - Displaying the score of both users.
+ 
  - Display the instructions of the game on the screen
+ 
  - Overall providing a more aesthetically pleasing product.
+ 
  - Features like using a modal were implemented 
  
  
+All of the above tasks were successfully completed.
  
  e.g. I used a modal from bootstrap to display the game instructions using the following code.
  
 
-All of the above tasks were successfully completed.
 
 #  - CHALLENGES 
   
